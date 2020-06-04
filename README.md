@@ -9,7 +9,7 @@ Py script, that makes the request to the twilio API.
 
 #### clock.py
 
-Using APScheduler, runs sendText function from api-script after certain intervals.
+Using APScheduler, runs sendText function from api-script after certain intervals. Edit the interval at 9:37 if needed.
 
 #### Procfile
 
