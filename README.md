@@ -13,7 +13,7 @@ Using APScheduler, runs sendText function from api-script after certain interval
 
 #### Procfile
 
-To handle the clock management while deploying.
+To handle the clock management process.
 
 #### requirements.txt
 
@@ -27,7 +27,7 @@ Just two requirements:
 1) You will require a twilio account. In the `Console`, under `Programmable SMS` select `WhatsApp beta`
 2) Copy the sandbox code and on the WhatsApp accounts you want to connect, text
   `join <sandbox-code>`
-3) Edit the script as per your account and sandbox credentials. Copy the script directly from Twilio if you want.
+3) Edit the script as per your account and sandbox credentials. Copy the script directly from Twilio if you want. Append various messages you want.
 4)Create a new app on heroku and push your repo
 5) After the build, you might want to start clock.py under `Resources > Dyno`.
 6) The hosted script is up now!
